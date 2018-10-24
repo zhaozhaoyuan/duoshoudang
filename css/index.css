@@ -1,0 +1,10 @@
+/* 分组选择器： 公用同一套样式 符号是一个逗号隔开
+body{width: 100%;height: 100%;}
+html{width: 100%;height: 100%;}
+.swiper-container{width: 100%;height: 100%;}
+*/
+body,html,.swiper-container{width: 100%;height: 100%;}
+
+.page1{background: darkblue}
+.page2{background: firebrick}
+.page3{background: chartreuse}

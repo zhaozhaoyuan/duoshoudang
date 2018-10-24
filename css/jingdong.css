@@ -1,0 +1,95 @@
+html,body,.main,.swiper-container,.swiper-slide{
+    width: 100%;height: 100%;overflow: hidden;
+}
+/*音乐*/
+.music{z-index: 9;position: absolute;top: .2rem;left: .2rem;width: .6rem;height:.6rem;background: url("../audio/music.svg") no-repeat;background-size: cover;}
+/*小黑箭头*/
+.arrow{z-index:99;position:absolute;bottom:.2rem;left:50%;margin-left:-.425rem;width: .85rem;height: .83rem;background: url("../images/arrow.png") no-repeat;background-size: cover}
+/*第一屏*/
+.page1{background:url("../images/page1/bg1.jpg") no-repeat;background-size: 100% 100%;}
+.page1 .text1{position:absolute; top:.65rem;right: .65rem;width: 2.05rem;height: 5.99rem;background: url("../images/page1/textBg.png") no-repeat;background-size: cover;  }
+.page1 .text1 div{width: 1.38rem;margin: 13px auto;}
+.page1 .txt01{height: 1.3rem;background: url("../images/page1/text01.png") no-repeat;background-size: cover}
+.page1 .txt02{height: 1.1rem;background: url("../images/page1/text02.png") no-repeat;background-size: cover}
+.page1 .txt03{height: 1.08rem;background: url("../images/page1/text03.png") no-repeat;background-size: cover}
+.page1 .txt04{height: 1.2rem;background: url("../images/page1/text04.png") no-repeat;background-size: cover}
+.page1 .tuzhang{position:absolute;top:7rem;right:1.2rem;width:1.32rem;height: 1.35rem;background: url("../images/page1/tuzhang.png") no-repeat;background-size: cover}
+
+/*第二屏*/
+.page2{background: url("../images/page2/bg1.png") no-repeat;
+    background-size: 100% 100%;}
+.page2 .bj{  background: url("../images/page2/bg2.png") no-repeat;background-size: 100% 100%;width: 100%;height:100%;  }
+.page2 .text1{top:1.2rem;right:.8rem;position: absolute;}
+.page2 .text1 span{width: .56rem;height:2.83rem;float: right;}
+.page2 .text1 span:nth-child(1){background: url("../images/page2/text01.png") no-repeat;background-size: 100% 100%}
+.page2 .text1 span:nth-child(2){background: url("../images/page2/text02.png") no-repeat;background-size: 100% 100%}
+.page2 .text2{top:1.2rem;right:2.5rem;position: absolute;}
+.page2 .text2 span{float:right;width: .36rem;height:5.78rem;margin-left:.35rem;}
+.page2 .text2 span:nth-child(1){background: url("../images/page2/text03.png") no-repeat;background-size: 100% 100%}
+.page2 .text2 span:nth-child(2){background: url("../images/page2/text04.png") no-repeat;background-size: 100% 100%}
+.page2 .text2 span:nth-child(3){background: url("../images/page2/text05.png") no-repeat;background-size: 100% 100%}
+.page2 .text2 span:nth-child(4){background: url("../images/page2/text06.png") no-repeat;background-size: 100% 100%}
+.page2 .shou{position:absolute;bottom:.5rem;left:.5rem;width:2.08rem;height:2.44rem;background: url("../images/page2/hand.png") no-repeat;background-size: 100% 100%}
+.page2 .dao{position:absolute;bottom:1rem;left:.8rem;width:2.4rem;height:1.25rem;background: url("../images/page2/knife.png") no-repeat;background-size: 100% 100%}
+/*第三屏*/
+.page3{background: url("../images/page3/bg1.png") no-repeat;background-size: 100% 100%;}
+.page3 .bj{background: url("../images/page3/bg2.png") no-repeat;background-size: 100% 100%;width: 100%;height:100%;}
+.page3 .quan{position:absolute;left:50%;top:1.5rem;margin-left:-2.78rem;width:5.56rem;height:5.74rem;background: url("../images/page3/circle.png") no-repeat;background-size: 100% 100%}
+.page3 .txt{z-index:999;position:absolute;left:50%;top:2.5rem;margin-left:-1.73rem;width:3.45rem;height:3.45rem;background: url("../images/page3/text.png") no-repeat;background-size: 100% 100%}
+.page3 .ren{position: absolute;height:3rem;top:1.5rem;left:50%;margin-left:-1.73rem;width: 3.45rem;}
+.page3 .r01{position:absolute;top:0;right:0;width:1.8rem;height:3rem;background: url("../images/page3/renwu01.png") no-repeat;background-size: 100% 100%}
+.page3 .r02{position:absolute;top:-.6rem;left:50%;margin-left:-.9rem;width:1.8rem;height:3rem;background: url("../images/page3/renwu02.png") no-repeat;background-size: 100% 100%}
+.page3 .r03{position:absolute;top:0;left:0;width:1.8rem;height:3rem;background: url("../images/page3/renwu03.png") no-repeat;background-size: 100% 100%}
+.page3 .r04{position:absolute;top:0;left:50%;margin-left:-.9rem;width:1.8rem;height:3rem;background: url("../images/page3/renwu04.png") no-repeat;background-size: 100% 100%}
+.page3 .btns{position: absolute;left:0;right:0;margin:auto;bottom:.6rem;width:5.02rem;height:1.8rem;background: url("../images/page3/btns.png") no-repeat;background-size: 100% 100%}
+/*动画*/
+.arrow{-webkit-animation: fadeInUp 1s ease 1s infinite;animation: fadeInUp 1s ease 2s infinite;}
+/*音乐*/
+.music{animation: rotateIn 1s ease infinite; -webkit-animation:rotateIn 1s ease infinite;}
+/*第一屏特效*/
+.page1 .text1{-webkit-animation: fadeIn 1s ease .2s both;animation: fadeIn 1s ease .2s both;}
+.page1 .txt01{-webkit-animation: fadeIn 1s ease 2s both;animation: fadeIn 1s ease .2s both;}
+.page1 .txt02{-webkit-animation: fadeIn 1s ease 2s both;animation: fadeIn 1s ease .6s both;}
+.page1 .txt03{-webkit-animation: fadeIn 1s ease 2s both;animation: fadeIn 1s ease 1s both;}
+.page1 .txt04{-webkit-animation: fadeIn 1s ease 2s both;animation: fadeIn 1s ease 1.4s both;}
+.page1 .tuzhang{opacity:0;-webkit-animation: tada 1s ease 3s both;animation: tada 1s ease 1.8s both;}
+/*第二屏特效*/
+.page2 span{opacity: 0;}
+.page2 .text1 span:nth-child(1){
+    -webkit-animation:bounceInRight 1s ease 1s both;animation:bounceInRight 1s ease 1s both;}
+.page2 .text1 span:nth-child(2){
+    -webkit-animation:bounceInRight 1s ease 2s both;animation:bounceInRight 1s ease 2s both;}
+.page2 .text2 span:nth-child(1){
+    -webkit-animation:bounceInDown 1s ease 3s both;animation:bounceInDown 1s ease 3s both;}
+.page2 .text2 span:nth-child(2){
+    -webkit-animation:bounceInDown 1s ease 4s both;animation:bounceInDown 1s ease 4s both;}
+.page2 .text2 span:nth-child(3){
+    -webkit-animation:bounceInDown 1s ease 5s both;animation:bounceInDown 1s ease 5s both;}
+.page2 .text2 span:nth-child(4){
+    -webkit-animation:bounceInDown 1s ease 6s both;animation:bounceInDown 1s ease 6s both;}
+.page2 .shou{-webkit-animation:fadeIn 1s ease .4s both;-moz-animation:fadeIn 1s ease .4s both;}
+.page2 .dao{-webkit-animation:dao 2s ease .6s infinite both ;-moz-animation:dao 2s ease .6s infinite  both;transform-origin: right bottom;}
+@-webkit-keyframes dao {
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(30deg)}
+}
+@keyframes dao {
+    0%,100%{transform: rotate(0deg)}
+    50%{transform: rotate(15deg)}
+}
+/*第三屏特效*/
+.page3 .quan{-webkit-animation:rotate .6s 1s ease both;animation: rotate .6s 1s ease both;}
+.page3 .txt{-webkit-animation:fadeIn 1s 1s ease both;animation: fadeIn 1s 1s ease both;}
+.page3 .r01{-webkit-animation:bounceInDown 1s 2s ease both;animation: bounceInDown 1s 2s ease both;}
+.page3 .r02{-webkit-animation:bounceInDown 1s 3s ease both;animation: bounceInDown 1s 3s ease both;}
+.page3 .r03{-webkit-animation:bounceInDown 1s 4s ease both;animation: bounceInDown 1s 4s ease both;}
+.page3 .r04{-webkit-animation:bounceInDown 1s 5s ease both;animation: bounceInDown 1s 5s ease both;}
+.page3 .btns{-webkit-animation:fadeIn 1s 1s ease both;animation: fadeIn 1s 1s ease both;}
+@-webkit-keyframes rotate {
+    0%{transform: rotate(0deg)}
+    100%{opacity:1; transform: rotate(360deg)}
+}
+@keyframes rotate {
+    0%,100%{transform: rotate(0deg)}
+    50%{opacity:1; transform: rotate(360deg)}
+}
